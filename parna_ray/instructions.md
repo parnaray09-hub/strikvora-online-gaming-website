@@ -4,17 +4,17 @@
 
 ### Project Purpose
 
-Strikvora is an online football drafting experience that allows users to assemble a squad from a predefined pool of fictional football players and receive a final squad evaluation based on player statistics, chemistry, synergy, and ranking calculations.
+Strikvora is a football drafting website interface consisting of a Player Draft Center, Squad Builder, and Draft Results Dashboard.
 
 ### Product Summary
 
-The website consists of three primary sections:
+The website must recreate the football drafting experience shown in `reference_image.png`.
+
+The final website must visually represent:
 
 1. Player Draft Center
 2. Squad Builder
 3. Draft Results Dashboard
-
-Users browse available players, build a squad, and receive a final performance evaluation based on the rules defined in the provided assets.
 
 ### Target Audience
 
@@ -25,14 +25,13 @@ Users browse available players, build a squad, and receive a final performance e
 
 ### Core Functionality
 
-* Display player data from the provided player database
-* Allow player selection into a squad
-* Display squad composition
-* Calculate squad ratings and chemistry values
-* Display final rank tiers
-* Support desktop and mobile layouts
-
----
+* Display a Player Draft Center section
+* Display a Squad Builder section
+* Display a Draft Results Dashboard section
+* Allow player selection interactions
+* Display squad information
+* Display draft result information
+* Support responsive layouts
 
 ## 2. Scope of Work
 
@@ -40,37 +39,25 @@ Users browse available players, build a squad, and receive a final performance e
 
 #### Player Draft Center
 
-* Display all players contained in `strikvora_player_database.xlsx`
-* Display player position
-* Display player rating
-* Display player club
-* Display player attributes
-* Support player selection
-* Follow the visual direction shown in `strikvora_player_card_reference.png`
+* Display player cards
+* Display player information
+* Display player selection controls
+* Display filtering controls
+* Display player list layout similar to the supplied reference image
 
 #### Squad Builder
 
+* Display football formation layout
 * Display selected players
-* Allow squad composition management
-* Display squad statistics
-* Display chemistry values
-* Display synergy values
-* Apply scoring rules from `strikvora_scoring_rules.pdf`
+* Display squad management controls
+* Display squad information panels
 
 #### Draft Results Dashboard
 
-* Display final squad rating
-* Display chemistry summary
-* Display synergy summary
-* Display rank tier
-* Follow layout guidance from `strikvora_dashboard_reference.png`
-* Apply tier definitions from `strikvora_tier_system.pdf`
-
-#### Branding
-
-* Apply colors defined in `strikvora_brand_guidelines.pdf`
-* Apply typography defined in `strikvora_brand_guidelines.pdf`
-* Use club assets from `strikvora_club_logos.zip`
+* Display result summary cards
+* Display rank information
+* Display statistics panels
+* Display chemistry summary panels
 
 #### Responsiveness
 
@@ -83,28 +70,23 @@ Users browse available players, build a squad, and receive a final performance e
 * User accounts
 * Authentication systems
 * Registration forms
-* Login functionality
-* Databases
-* Server-side processing
-* Payment functionality
-* Online multiplayer functionality
+* Payment systems
+* Multiplayer functionality
 * Chat systems
 * Leaderboards
 * External API integrations
-* Content management systems
-* Cloud deployment configuration
-
----
+* Database systems
+* Server-side processing
 
 ## 3. Tech Stack Required
 
-### Frontend Framework
+### Frontend
 
 * HTML
 * CSS
 * JavaScript
 
-### Backend Framework
+### Backend
 
 * Not Required
 
@@ -116,20 +98,9 @@ Users browse available players, build a squad, and receive a final performance e
 
 * Not Required
 
-### Hosting
-
-* Not Required
-
 ### Third Party Integrations
 
 * Not Required
-
-### Development Tools
-
-* Any modern code editor
-* Browser developer tools
-
----
 
 ## 4. Folder Structure
 
@@ -137,14 +108,7 @@ Users browse available players, build a squad, and receive a final performance e
 project-root/
 │
 ├── assets/
-│   ├── strikvora_player_database.xlsx
-│   ├── strikvora_club_logos.zip
-│   ├── strikvora_scoring_rules.pdf
-│   ├── strikvora_brand_guidelines.pdf
-│   ├── strikvora_reference_wireframe.png
-│   ├── strikvora_tier_system.pdf
-│   ├── strikvora_player_card_reference.png
-│   └── strikvora_dashboard_reference.png
+│   └── reference_image.png
 │
 ├── css/
 │   └── styles.css
@@ -159,72 +123,21 @@ project-root/
 └── README.md
 ```
 
-### Directory Explanation
-
-#### assets
-
-Contains all provided project assets.
-
-#### css
-
-Contains responsive styling files.
-
-#### js
-
-Contains interactive functionality and calculations.
-
-#### images
-
-Contains extracted logo assets and supporting imagery.
-
-#### index.html
-
-Main website entry point.
-
-#### README.md
-
-Project setup and structure explanation.
-
----
-
 ## 5. Deliverables
 
-| ID   | Deliverable                  | Type |
-| ---- | ---------------------------- | ---- |
-| D-01 | Responsive Strikvora Website | HTML |
-| D-02 | Player Draft Center          | HTML |
-| D-03 | Squad Builder                | HTML |
-| D-04 | Draft Results Dashboard      | HTML |
-| D-05 | Responsive Layout Support    | CSS  |
-| D-06 | Editable Source Files        | ZIP  |
+| ID | Deliverable | Type |
+|----|-------------|------|
+| D-01 | Zipped Source Code + README.md | ZIP |
 
 ### Deliverable Requirements
 
-#### D-01 Responsive Strikvora Website
+The ZIP package must contain:
 
-Must contain all required sections and function correctly on supported screen sizes.
-
-#### D-02 Player Draft Center
-
-Must display all players from `strikvora_player_database.xlsx`.
-
-#### D-03 Squad Builder
-
-Must allow squad creation and display active squad statistics.
-
-#### D-04 Draft Results Dashboard
-
-Must display final calculated results and rank tier.
-
-#### D-05 Responsive Layout Support
-
-Must adapt layouts for desktop, tablet, and mobile devices.
-
-#### D-06 Editable Source Files
-
-Must include all project source files in editable form.
-
----
+* HTML files
+* CSS files
+* JavaScript files
+* README.md
+* Any supporting image assets
 
 ## 6. File Formats
 
@@ -236,82 +149,38 @@ Must include all project source files in editable form.
 
 ### Assets
 
-* `.xlsx`
-* `.zip`
-* `.pdf`
 * `.png`
-
-### Submission Package
-
-* `.zip`
 
 ### Documentation
 
 * `.md`
 
----
+### Submission Package
+
+* `.zip`
 
 ## 7. Explicit Ask
 
 ### What Must Be Built
 
-Build a complete Strikvora football drafting website consisting of:
+Build a football drafting website that visually follows:
+
+* `reference_image.png`
+
+The website must contain:
 
 * Player Draft Center
 * Squad Builder
 * Draft Results Dashboard
 
-The implementation must use:
-
-* `strikvora_player_database.xlsx`
-* `strikvora_club_logos.zip`
-* `strikvora_scoring_rules.pdf`
-* `strikvora_brand_guidelines.pdf`
-* `strikvora_reference_wireframe.png`
-* `strikvora_tier_system.pdf`
-* `strikvora_player_card_reference.png`
-* `strikvora_dashboard_reference.png`
-
-### Expected Behavior
-
-#### Player Draft Center
-
-* Display all players
-* Display player details
-* Support player selection
-
-#### Squad Builder
-
-* Display selected squad
-* Display squad statistics
-* Display chemistry calculations
-
-#### Draft Results Dashboard
-
-* Display final squad score
-* Display synergy summary
-* Display rank tier
-
 ### Acceptance Criteria
 
-* All players from the database are displayed.
-* Club logos are displayed where applicable.
-* Scoring logic follows `strikvora_scoring_rules.pdf`.
-* Rank assignment follows `strikvora_tier_system.pdf`.
-* Branding follows `strikvora_brand_guidelines.pdf`.
-* Player cards visually align with `strikvora_player_card_reference.png`.
-* Dashboard visually aligns with `strikvora_dashboard_reference.png`.
-* Layout adapts correctly across supported screen sizes.
-* All deliverables are included.
-
-### Performance Expectations
-
-* Pages load without visual layout breaks.
-* Interactive actions respond without noticeable delay.
-* Layout remains usable across supported screen sizes.
-
-### Platform Requirements
-
-* Modern desktop browsers
-* Modern tablet browsers
-* Modern mobile browsers
+* The website contains a Player Draft Center section.
+* The website contains a Squad Builder section.
+* The website contains a Draft Results Dashboard section.
+* The overall layout follows reference_image.png.
+* The website supports desktop layouts.
+* The website supports tablet layouts.
+* The website supports mobile layouts.
+* The submission includes a ZIP package.
+* The submission includes README.md.
