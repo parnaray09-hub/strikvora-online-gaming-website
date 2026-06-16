@@ -1,0 +1,7 @@
+Overview
+
+Strikvora is a football drafting website experience focused on squad creation and draft evaluation. The website consists of three primary areas: Player Draft Center, Squad Builder, and Draft Results Dashboard.
+
+The objective is to create a responsive football drafting website that visually follows the supplied reference image and allows users to browse players, select players, build a squad, and review draft results through an interactive interface.
+
+The final solution should support desktop, tablet, and mobile screen sizes while maintaining the overall structure and layout defined by the supplied project asset.
