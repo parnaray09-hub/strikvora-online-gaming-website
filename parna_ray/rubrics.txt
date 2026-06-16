@@ -1,59 +1,27 @@
-STRIKVORA — FINAL RUBRICS
-==========================
+Strikvora Rubrics
 
-
---------------------------
-SECTION 1 — CORE SECTIONS
---------------------------
-R-01  Does the website contain a section labelled Player Draft Center?
-R-02  Does the website contain a section labelled Squad Builder?
-R-03  Does the website contain a section labelled Draft Results Dashboard?
-
-------------------------------
-SECTION 2 — PLAYER DRAFT CENTER
-------------------------------
-R-04  Does selecting a player in the Player Draft Center cause that player to appear as a listed entry in the Squad Builder?
-R-05  Does the Player Draft Center display at least one player entry?
-R-06  Does each player entry in the Player Draft Center display a position value?
-R-07  Does each player entry in the Player Draft Center display a numerical rating value?
-R-08  Does each player entry in the Player Draft Center display a club name?
-R-09  Does each player entry in the Player Draft Center display at least one numerical attribute value?
-
---------------------------
-SECTION 3 — SQUAD BUILDER
---------------------------
-R-12  Does the Squad Builder display the name of each player that has been selected from the Player Draft Center?
-R-14  Does the Squad Builder display a numerical value labelled as chemistry?
-R-15  Does the Squad Builder display a numerical value labelled as synergy?
-R-25  Does the Squad Builder display a running numerical squad rating that updates as players are added?
-R-16a Does the numerical chemistry value in the Squad Builder change when a player is added?
-R-16b Does the numerical synergy value in the Squad Builder change when a player is added?
-R-17  Does the Squad Builder display a control (button or link) on each player entry that, when activated, initiates a remove action?
-R-20  After a player's remove control is activated in the Squad Builder, does that player's entry disappear from the Squad Builder list?
-
-----------------------------------
-SECTION 4 — DRAFT RESULTS DASHBOARD
-----------------------------------
-R-18  Does the Draft Results Dashboard display a numerical value labelled as final squad rating?
-R-19  Does the Draft Results Dashboard display a numerical value labelled as chemistry summary?
-R-20b Does the Draft Results Dashboard display a numerical value labelled as synergy summary?
-R-21  Does the Draft Results Dashboard display a text label identifying a rank tier?
-
---------------------------
-SECTION 5 — RESPONSIVENESS
---------------------------
-R-23  Does the website render without horizontal overflow at a viewport width of 1280px?
-R-24  Does the website render without horizontal overflow at a viewport width of 768px?
-
------------------------
-SECTION 6 — TECH STACK
------------------------
-R-26  Does the submission include at least one .html file?
-R-27  Does the submission include at least one .css file?
-R-28  Does the submission include at least one .js file?
-
----------------------------
-SECTION 7 — FOLDER / DOCS
----------------------------
-R-29  Does the submission contain a README.md file?
-
+R-01 Does the website contain a section labelled Player Draft Center?
+R-02 Does the website contain a section labelled Squad Builder?
+R-03 Does the website contain a section labelled Draft Results Dashboard?
+R-04 Does selecting a player cause that player to appear in the Squad Builder?
+R-05 Does the Player Draft Center display at least one player card?
+R-06 Does each player card display player information?
+R-07 Does the Player Draft Center provide player selection controls?
+R-08 Does the Player Draft Center provide filtering controls?
+R-09 Does the Player Draft Center display a player list layout?
+R-10 Does the Squad Builder display selected players?
+R-11 Does the Squad Builder display a football formation layout?
+R-12 Does the Squad Builder display squad management controls?
+R-13 Does the Squad Builder display squad information panels?
+R-14 Does the Draft Results Dashboard display summary cards?
+R-15 Does the Draft Results Dashboard display statistics panels?
+R-16 Does the Draft Results Dashboard display rank information?
+R-17 Does the website support desktop layouts?
+R-18 Does the website support tablet layouts?
+R-19 Does the website support mobile layouts?
+R-20 Does the submission include at least one .html file?
+R-21 Does the submission include at least one .css file?
+R-22 Does the submission include at least one .js file?
+R-23 Does the submission include a README.md file?
+R-24 Does the submission include a ZIP package?
+R-25 Does the overall layout follow reference_image.png?
